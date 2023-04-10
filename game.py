@@ -1,6 +1,5 @@
-# import modules
+# import modules and assets
 import os
-# import assets
 from consumables import consumable_items
 from weapons import weapons
 from players import Player
@@ -12,4 +11,4 @@ player3 = Player(3, [], 13, 4, 1)
 player4 = Player(4, [], 16, 1, 3)
 
 # speak welcome text
-os.system("espeak 'welcome to electronic dungeons and dragons'")
+os.system("espeak -g 25 -s 125 'welcome to electronic dungeons and dragons'")
