@@ -3,7 +3,7 @@ class Weapon:
     def __init__(self, name, damage, weapon_range):
         self.name = name
         self.damage = damage
-        self.weapon_type = weapon_type
+        self.weapon_range = weapon_range
 
 # variables of weapons
 sword = Weapon("sword", 5, "short")
