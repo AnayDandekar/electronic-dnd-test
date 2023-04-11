@@ -1,3 +1,7 @@
+# import assets
+from materials import materials
+from items import items
+
 # players class
 class Player:
     def __init__(self, player_num, inventory, health, position, hunger, thirst):
