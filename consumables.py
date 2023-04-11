@@ -7,7 +7,8 @@ class Consumable:
         
 # variables of consumable items
 bread = Consumable("bread", "hunger", 2)
-raw_meat = Consumable("raw meat", "hunger", 4)
+raw_meat = Consumable("raw meat", "hunger", 3)
+cooked_meat = Consumable("cooked meat", "hunger", 5)
 health_potion = Consumable("health potion", "health", 5)
 water_bottle = Consumable("water bottle", "thirst", 2)
 
@@ -15,6 +16,7 @@ water_bottle = Consumable("water bottle", "thirst", 2)
 consumable_items = {
     "bread": bread,
     "raw meat": raw_meat,
+    "cooked meat": cooked_meat,
     "health potion": health_potion,
     "water bottle": water_bottle
 }
