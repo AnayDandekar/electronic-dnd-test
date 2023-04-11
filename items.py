@@ -15,10 +15,10 @@ class Weapon(Item):
         self.weapon_range = weapon_range
 
 # variables of weapons
-sword = Weapon("sword", 5, "short")
-bow_and_arrow = Weapon("bow and arrow", 2, "long")
-hammer = Weapon("hammer", 7, "short")
-dagger = Weapon("dagger", 3, "short")
+sword = Weapon("sword", [materials.get("wood")], 5, "short")
+bow_and_arrow = Weapon("bow and arrow", [materials.get("wood")], 2, "long")
+hammer = Weapon("hammer", 7, [materials.get("wood")], "short")
+dagger = Weapon("dagger", 3, [materials.get("wood")], "short")
 
 # dictionary of items
 items = {
