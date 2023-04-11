@@ -1,7 +1,6 @@
 # import modules and assets
 import os
 from consumables import consumable_items
-from weapons import weapons
 from players import Player
 
 # default text to speech settings
