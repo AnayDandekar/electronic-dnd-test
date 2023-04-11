@@ -28,4 +28,4 @@ class Player:
                 # notify player that new item has been crafted
                 speak_text(f"you successfully crafted {item}", False, voice_speed, space_pause_len)
         else:
-            speak_text(f"{item} does not exist in the game")
+            speak_text(f"{item} does not exist in the game", voice_speed, space_pause_len)
