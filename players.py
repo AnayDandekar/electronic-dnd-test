@@ -7,3 +7,5 @@ class Player:
         self.position = position
         self.hunger = hunger
         self.thirst = thirst
+    def craft_item(self, materials, crafted_item):
+        pass
