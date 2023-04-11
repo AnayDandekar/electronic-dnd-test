@@ -9,10 +9,10 @@ voice_speed = 120
 space_pause_len = 10
 
 # set mock player data
-player1 = Player(1, [], 15, 1, 2, 10)
-player2 = Player(2, [], 18, 2, 5, 25)
-player3 = Player(3, [], 13, 4, 1, 8)
-player4 = Player(4, [], 16, 1, 3, 17)
+player1 = Player(1, [], 15, 10, 2, 1)
+player2 = Player(2, [], 18, 25, 5, 2)
+player3 = Player(3, [], 13, 8, 1, 4)
+player4 = Player(4, [], 16, 17, 3, 1)
 
 def speak_text(text, is_file, voice_speed, space_pause_len):
     # speak text with settings from function parameters
