@@ -1,7 +1,16 @@
-# weapons class
-class Weapon:
-    def __init__(self, name, damage, weapon_range):
+# import assets
+from materials import materials
+
+# items class
+class Item:
+    def __init__(self, name, materials):
         self.name = name
+        self.materials = materials
+
+# weapons subclass
+class Weapon(Item):
+    def __init__(self, name, materials, damage, weapon_range):
+        super().__init__(name, materials)
         self.damage = damage
         self.weapon_range = weapon_range
 
