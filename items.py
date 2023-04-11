@@ -20,10 +20,12 @@ bow_and_arrow = Weapon("bow and arrow", 2, "long")
 hammer = Weapon("hammer", 7, "short")
 dagger = Weapon("dagger", 3, "short")
 
-# dictionary of weapons
-weapons = {
-    "sword": sword,
-    "bow and arrow": bow_and_arrow,
-    "hammer": hammer,
-    "dagger": dagger
+# dictionary of items
+items = {
+    "weapons": {
+        "sword": sword,
+        "bow and arrow": bow_and_arrow,
+        "hammer": hammer,
+        "dagger": dagger
+        }
 }
