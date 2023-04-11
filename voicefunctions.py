@@ -1,6 +1,10 @@
 # import modules
 import os
 
+# default text to speech settings
+voice_speed = 120
+space_pause_len = 10
+
 def speak_text(text, is_file, voice_speed, space_pause_len):
     # speak text with settings from function parameters
     if not is_file:

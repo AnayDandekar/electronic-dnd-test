@@ -1,11 +1,7 @@
 # import assets
-from voicefunctions import speak_text, ask_question
+from voicefunctions import speak_text, ask_question, voice_speed, space_pause_len
 from consumables import consumable_items
 from players import Player
-
-# default text to speech settings
-voice_speed = 120
-space_pause_len = 10
 
 # set mock player data
 player1 = Player(1, [], 15, 10, 2, 1)
