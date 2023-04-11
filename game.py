@@ -1,6 +1,5 @@
 # import assets
 from voicefunctions import speak_text, ask_question, voice_speed, space_pause_len
-from consumables import consumable_items
 from players import Player
 
 # set mock player data
