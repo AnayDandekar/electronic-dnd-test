@@ -1,3 +1,6 @@
+# import modules
+import os
+
 def speak_text(text, is_file, voice_speed, space_pause_len):
     # speak text with settings from function parameters
     if not is_file:
